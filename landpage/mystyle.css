@@ -1,0 +1,77 @@
+*  {
+        margin: 1px;
+        padding: 2px;
+        font-family: cursive;
+        table-layout: auto;
+        }
+.homes{
+         background: url('img/homes.jpg');
+        }
+.profile{
+         background: url('img/profile.jpg');
+        }
+.promotion{
+         background: url('img/promotionn.jpg');
+        }
+.package{
+         background: url('img/package.jpg');
+        }
+.destination{
+         background: url('img/destinasiii.jpg');
+        }
+.contact{
+         background: url('img/contact.jpg');
+        }
+.home{
+         background: url();
+        }
+h1      {
+         color: black;
+         size: 1pt;
+         text-align: center;
+         font-family: 'Times New Roman', Times, serif;
+        }
+li      {
+    list-style-type: none;
+    margin: 0;
+    color: aqua;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+.tb1 td {
+    border: none;
+    border-style: solid;
+        }
+.tb2 td{
+        border: none;
+        border-style: solid;
+        }
+.btn4   {
+        background-color:#F08080;
+        text-align: center;
+        color: darkblue;
+        padding: 5px 5px;
+        text-decoration: none;
+        margin: auto;
+        font-size: medium;
+        }
+.btn3   {
+        background-color:#F08080;
+        color: darkblue;
+        padding: 7px 10px;
+        text-decoration: none;
+        margin: auto;
+        font-size: medium;
+        }
+.btn2   {
+        background-color:#F08080;
+        color: darkblue;
+        padding: 7px 10px;
+        text-decoration: none;
+        margin: auto;
+        font-size: medium;
+        }
+fieldset{
+        color: black;
+        text-align: left;
+        }

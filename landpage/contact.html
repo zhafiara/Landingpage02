@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link type="text/css" rel="stylesheet" href="mystyle.css">
 </head>
-<body background="img/contact.jpg">
+<body class="contact">
     <nav>
         <img src="img/logo.png" alt="" width="12%">
-        <table bgcolor="#F08080" border="0" cellspacing="0" cellpadding="8" width="1336px"><tr>
+        <table bgcolor="#F08080" border="2" cellspacing="0" cellpadding="8" width="1330px"><tr></tr>
             <ul>
                 <th><li><a href="home.html">Home</a></li></th>
                 <th><li><a href="profile.html">Profile</a></li></th>
@@ -20,33 +21,29 @@
     </nav>
         <h2>Contact</h2>
         <form action="proses.php" method="get">
-            <table border="0">
-                <tr>
-                    <td>Nama Lengkap</td> 
-                    <td>: <input type="text" name="namalengkap" value =""></td>
-                </tr>
-                <tr>
-                    <td> E-mail</td> 
-                     <td>: <input type="email" name="email"> </td>
-                </tr>
-                <tr>
-                    <td> No. Telepon</td> 
-                     <td>: <input type="number" name="no. telp"></td>
-                </tr>
-                <tr>
-                    <td> Pesan atau Saran</td>
-                </tr>
-                <tr> <td><textarea name="message" id="" cols="30" rows="5"></textarea></td>
-                </tr>
-                <tr> <td>Rate Form</td>
-                    <td>: <input type="range" name="points" min="0" max="10"></td>
-                </tr>
-                </tr>
-                <tr>
-                    <td><input type="submit" name="Submit" value="Submit"></td>
-                    <td><input type="reset" value="Reset"></td>
-                </tr>
-                </table>
+            <fieldset aria-setsize="50%">
+              
+                <label for="">Nama Lengkap</label>
+                 <input type="text" id="" ><br><br>
+                 <label for="">No Handphone </label>
+                 <input type="number" id="" ><br><br>
+                 <label for="">Hobby</label>
+                 <select name="" id="" >
+                     <option value="">Hobby</option>
+                     <option value="">Mendaki</option>
+                     <option value="">Snorkling</option>
+                     <option value="">Diving</option>
+                     <option value="">Berenang</option>
+                </select>
+                
+                 <p>Jenis Kelamin</p>
+                 <p><input type='radio' name='jenis_kelamin' value='pria' />Pria</p>
+                 <p><input type='radio' name='jenis_kelamin' value='perempuan' />Perempuan</p>
+                 <label for="">Pesan atau saran</label>
+                 <textarea name="" id="" cols="30" rows="10"></textarea><br/>
+                 <input type="submit" class="btn3" value="Submit"> 
+                 <input type="reset" class="btn2">
+            </fieldset>
             </form>
     
         
